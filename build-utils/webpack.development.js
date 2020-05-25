@@ -1,7 +1,8 @@
 const path = require("path");
 
 module.exports = () => ({
-  entry: { app: "./src/index.js" },
+  // entry: { app: "./src/index.js" },
+  entry: { app: path.join(__dirname, "../src/ClientApp.js") },
   module: {
     rules: [
       {

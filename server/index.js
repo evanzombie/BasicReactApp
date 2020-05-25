@@ -6,13 +6,6 @@ import { StaticRouter } from "react-router-dom";
 import fs from "fs";
 import App from "../src/App";
 
-// const express = require("express");
-// const React = require("react");
-// const { renderToNodeStream } = require("react-dom/server");
-// const { StaticRouter } = require("react-router-dom");
-// const fs = require("fs");
-// const App = require("../src/App");
-
 const PORT = process.env.PORT || 3000;
 const html = fs.readFileSync("dist/index.html").toString();
 const parts = html.split("not rendered");
