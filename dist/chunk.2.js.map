@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///./src/lazy.js"],"names":[],"mappings":";yFAAA,OAAe","file":"chunk.2.js","sourcesContent":["export default \"Hello from lazy\";\n"],"sourceRoot":""}
