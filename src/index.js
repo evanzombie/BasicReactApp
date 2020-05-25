@@ -1,31 +1,43 @@
-import React, { useState } from "react";
-import ReactDOM from "react-dom";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+// import React, { useState } from "react";
+// import ReactDOM from "react-dom";
+// import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
-const App = () => {
-  const theme = useState("darkblue");
+// const App = () => {
+//   const theme = useState("darkblue");
 
-  return (
-    <Router>
-      <div>
-        <header>
-          <Link to="/">This is Header</Link>
-        </header>
+//   return (
+//     <Router>
+//       <div>
+//         <header>
+//           <Link to="/">This is Header</Link>
+//         </header>
 
-        <Switch>
-          <Route path="/">
-            <Home />
-          </Route>
-          <Route exact path="/about">
-            <About />
-          </Route>
-          <Route exact path="/users">
-            <Users />
-          </Route>
-        </Switch>
-      </div>
-    </Router>
-  );
-};
+//         <Switch>
+//           <Route path="/">
+//             <Home />
+//           </Route>
+//           <Route exact path="/about">
+//             <About />
+//           </Route>
+//           <Route exact path="/users">
+//             <Users />
+//           </Route>
+//         </Switch>
+//       </div>
+//     </Router>
+//   );
+// };
 
-ReactDOM.render(<App />, document.getElementById("root"));
+// ReactDOM.render(<App />, document.getElementById("root"));
+
+import "react";
+import "react-dom";
+
+import component from "./component";
+import "./main.css";
+import "./second.css";
+import "purecss";
+
+// import "./mysass.scss";
+
+document.body.appendChild(component());

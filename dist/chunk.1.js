@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{18:function(o,n,w){"use strict";w.r(n),n.default="Hello from lazy"}}]);
